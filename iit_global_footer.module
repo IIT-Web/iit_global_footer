@@ -35,7 +35,6 @@ function iit_global_footer_block_info() {
   $blocks['iit_global_footer'] = array(
     'info' => t('IIT Global Footer'),
     'cache' => DRUPAL_CACHE_GLOBAL,
-    'region' => 'iit_global_footer',
   );
   return $blocks;
 }
