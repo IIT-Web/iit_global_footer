@@ -1,0 +1,137 @@
+/* =============================================================================
+ *   IIT Global Footer - Global Styles
+ * ========================================================================== */
+/**/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700);
+/**/
+
+#iit-gf-wrapper {
+    background-color: #666;
+    border-top: 4px solid #cc0000;
+    min-height: 200px;
+}
+
+
+/* end IIT Global Header - Global Styles ==================================== */
+
+
+
+
+
+
+
+/* Standard layout */
+@media only screen and (min-width:1025px) {
+
+/* =============================================================================
+ *   IIT Global Footer - 
+ * ========================================================================== */
+
+
+
+/* end IIT Global Footer  =================================================== */
+
+} /* end Standard Layout */
+
+
+
+
+
+
+
+/* Tablet landscape */
+@media only screen and (min-width:800px) and (max-width:1024px) {
+
+/* =============================================================================
+ *   IIT Global Footer - 
+ * ========================================================================== */
+
+
+
+/* end IIT Global Footer  =================================================== */
+
+
+} /* end Tablet landscape */
+
+
+
+
+
+
+
+
+/* Tablet portrait */
+@media only screen and (min-width:600px) and (max-width:799px) {
+
+/* =============================================================================
+ *   IIT Global Footer - 
+ * ========================================================================== */
+
+
+
+/* end IIT Global Footer  =================================================== */
+
+} /* end Tablet portrait */
+
+/* iPad Portrait Overrides */
+@media only screen and (min-width:750px) and (max-width:799px) {
+
+
+
+} /* end iPad Portrait override */
+
+
+
+
+
+
+/* Smartphone landscape */
+@media only screen and (min-width:400px) and (max-width:599px) {
+
+/* =============================================================================
+ *   IIT Global Footer - 
+ * ========================================================================== */
+
+
+
+/* end IIT Global Footer  =================================================== */
+
+} /* end Smartphone landscape */
+
+
+
+
+
+
+
+/* Smartphone portrait */
+@media only screen and (max-width:399px) {
+
+/* =============================================================================
+ *   IIT Global Footer - 
+ * ========================================================================== */
+
+
+
+/* end IIT Global Footer  =================================================== */
+
+} /* end Smartphone portrait */
+
+
+
+
+
+
+/* =============================================================================
+ *   High Resoultion (HiDPI) Overrides
+ * ========================================================================== */
+
+/* Smartphone landscape, Smartphone portrait - HiDPI */
+@media only screen and (max-width:599px) and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+/* Tablet portrait, Tablet landscape, Standard layout - HiDPI */
+@media only screen and (min-width:600px) and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}

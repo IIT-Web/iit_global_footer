@@ -1,0 +1,89 @@
+<?php
+
+/**
+* @file
+* Provides IIT Global Footer block
+*/
+
+
+/* ***************************************** */
+/* Hook Implementations                      */
+/* ***************************************** */
+
+/**
+ * Implements hook_help.
+ *
+ * Displays help and module information.
+ *
+ * @param path 
+ *   Which path of the site we're using to display help
+ * @param arg 
+ *   Array that holds the current path as returned from arg() function
+ */
+function iit_global_header_help($path, $arg) {
+  switch ($path) {
+    case 'admin/help#iit_global_footer':
+      return '<p>' . t('Provides an IIT Global Footer block for use in IIT sites in the IIT Global Footer Region.') . '</p>';
+      break;
+  }
+}
+
+/**
+ * Implements hook_block_info().
+ */
+function iit_global_footer_block_info() {
+  $blocks['iit_global_footer'] = array(
+    'info' => t('IIT Global Footer'),
+    'cache' => DRUPAL_CACHE_GLOBAL,
+    'region' => 'iit_global_footer',
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ * 
+ * Prepares the contents of the block.
+ */
+function iit_global_footer_block_view($delta = '') {
+
+  // Generate the block output.
+  $block = array();
+
+  switch ($delta) {
+    case 'iit_global_footer':
+      if (user_access('access content')) {
+        //$block['subject'] = t('IIT Global Footer');
+        $block['content'] = iit_global_footer_build_contents();
+      }
+      break;
+  }
+
+  return $block;
+}
+
+
+/* ***************************************** */
+/* API FUNCTIONS                             */
+/* ***************************************** */
+
+/**
+ * Primary IIT Global Footer Build Content Function
+ *
+ * Returns the HTML block content for the IIT Global Footer block.
+ *
+ * @return
+ *   A String of HTML formatted content for the block content variable.
+ */
+function iit_global_header_build_contents() {
+  $html_output = '';
+
+  // Generate HTML Output
+  $html_output .= '<footer id="iit-gf-wrapper">';
+  $html_output .= '<div id="iit-gf-container" class="container clearfix">';
+  $html_output .= 'Global Footer Content';
+  $html_output .= '</div><!-- end #iit-gf-container -->';
+  $html_output .= '</footer><!-- end #iit-gf-wrapper -->';
+
+  return $html_output;
+}
