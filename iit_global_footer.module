@@ -20,7 +20,7 @@
  * @param arg 
  *   Array that holds the current path as returned from arg() function
  */
-function iit_global_header_help($path, $arg) {
+function iit_global_footer_help($path, $arg) {
   switch ($path) {
     case 'admin/help#iit_global_footer':
       return '<p>' . t('Provides an IIT Global Footer block for use in IIT sites in the IIT Global Footer Region.') . '</p>';
@@ -75,7 +75,7 @@ function iit_global_footer_block_view($delta = '') {
  * @return
  *   A String of HTML formatted content for the block content variable.
  */
-function iit_global_header_build_contents() {
+function iit_global_footer_build_contents() {
   $html_output = '';
 
   // Generate HTML Output
