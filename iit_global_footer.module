@@ -75,12 +75,30 @@ function iit_global_footer_block_view($delta = '') {
  *   A String of HTML formatted content for the block content variable.
  */
 function iit_global_footer_build_contents() {
+  $module_path = drupal_get_path('module', 'iit_global_footer');
   $html_output = '';
 
   // Generate HTML Output
   $html_output .= '<footer id="iit-gf-wrapper">';
   $html_output .= '<div id="iit-gf-container" class="container clearfix">';
-  $html_output .= 'Global Footer Content';
+  
+  $html_output .= '<div id="iit-gf-branding-wrapper">';
+  $html_output .= '<a id="iit-gf-branding" title="Illinois Institute of Technology" href="http://www.iit.edu/"><img src="/' . $module_path . '/images/IIT-Footer-Logo.png" alt="IIT Logo"></a>';
+  $html_output .= '<div id="iit-gf-contact" class="vcard">';
+  $html_output .= '<div class="fn org">Illinois Institute of Technology</div>';
+  $html_output .= '<div class="adr">';
+  $html_output .= '<div class="street-address">3300 South Federal Street</div>';
+  $html_output .= '<span class="locality">Chicago</span>, <abbr class="region" title="Illinois">IL</abbr> <span class="postal-code">60616-3793</span>';
+  $html_output .= '</div><div class="tel">312.567.3000</div>';
+  $html_output .= '</div><!-- end #iit-gf-contact --></div><!-- end #iit-gf-branding-wrapper -->';
+
+  $html_output .= '<div id="iit-gf-links"><ul>';
+  $html_output .= '<li><a title="Emergency Information" href="http://iit.edu/about/emergency_popup.shtml" onclick="window.open(this.href, \'emergency\', \'width=425, height=375\'); return false;">Emergency Information</a></li>';
+  $html_output .= '<li><a title="IIT Social Media Directory" href="http://www.iit.edu/directory/social-media.shtml">IIT Social Media Directory</a></li>';
+  $html_output .= '<li><a title="Contact IIT" href="http://www.iit.edu/departments/pr/inforequest.php">Contact Us</a></li>';
+  $html_output .= '<li><a href="mailto:webmaster@iit.edu">webmaster@iit.edu</a></li>';
+  $html_output .= '</ul></div><!-- end #iit-gf-links -->';
+
   $html_output .= '</div><!-- end #iit-gf-container -->';
   $html_output .= '</footer><!-- end #iit-gf-wrapper -->';
 

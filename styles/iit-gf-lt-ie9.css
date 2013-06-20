@@ -6,3 +6,77 @@
  *   IIT Global Footer - lt ie9 specific rules
  * ========================================================================== */
 
+#iit-gf-wrapper {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #666;
+    border-top: 4px solid #cc0000;
+    min-height: 125px;
+}
+
+#iit-gf-container {
+    position: relative;
+    overflow: hidden;
+}
+
+#iit-gf-branding {
+    display: block;
+    width: 300px;
+    outline: none;
+    color: transparent;
+}
+
+#iit-gf-contact {
+    font-size: .875em;
+    line-height: 1.285714286em;
+}
+
+#iit-gf-contact div.org {
+    font-weight: bold;
+}
+
+#iit-gf-contact abbr {
+    border: 0;
+}
+
+#iit-gf-links ul {
+    font-size: .75em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#iit-gf-links a {
+    color: #fff;
+    outline: none;
+}
+
+#iit-gf-links a:hover {
+    text-decoration: underline;
+}
+
+#iit-gf-branding-wrapper {
+    float: left;
+    margin: 1.125em 0 1.25em .625em;
+}
+
+#iit-gf-branding {
+    float: left;
+    margin: .125em 0 0 0;
+}
+
+#iit-gf-contact {
+    float: left;
+    margin: 0 0 0 1.857em;
+}
+
+#iit-gf-links {
+    float: right;
+    margin: 1.125em .625em 1.125em 0;
+}
+
+#iit-gf-links ul li {
+    text-align: right;
+}
