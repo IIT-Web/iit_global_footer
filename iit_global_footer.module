@@ -83,7 +83,7 @@ function iit_global_footer_build_contents() {
   $html_output .= '<div id="iit-gf-container" class="container clearfix">';
   
   $html_output .= '<div id="iit-gf-branding-wrapper">';
-  $html_output .= '<a id="iit-gf-branding" title="Illinois Institute of Technology" href="http://www.iit.edu/"><img src="/' . $module_path . '/images/IIT-Footer-Logo.png" alt="IIT Logo"></a>';
+  $html_output .= '<a id="iit-gf-branding" title="Illinois Institute of Technology" href="http://www.iit.edu/"><img width="300" src="/' . $module_path . '/images/IIT-Footer-Logo.png" alt="IIT Logo"></a>';
   $html_output .= '<div id="iit-gf-contact" class="vcard">';
   $html_output .= '<div class="fn org">Illinois Institute of Technology</div>';
   $html_output .= '<div class="adr">';
