@@ -94,7 +94,7 @@ function iit_global_footer_build_contents() {
 
   $html_output .= '<div id="iit-gf-links"><ul>';
   $html_output .= '<li><a title="IIT Social Media Directory" href="http://www.iit.edu/directory/social-media.shtml">IIT Social Media Directory</a></li>';
-  $html_output .= '<li><a title="Contact IIT" href="http://www.iit.edu/departments/pr/inforequest.php">Contact Us</a></li>';
+  $html_output .= '<li><a title="Contact IIT" href="http://www.iit.edu/departments/pr/inforequest.php">Contact IIT</a></li>';
   $html_output .= '<li><a href="mailto:webmaster@iit.edu">webmaster@iit.edu</a></li>';
   $html_output .= '<li><a class="emergency-info-link" title="Emergency Information" href="http://iit.edu/about/emergency_popup.shtml" onclick="window.open(this.href, \'emergency\', \'width=425, height=375\'); return false;">Emergency Information</a></li>';
   $html_output .= '</ul></div><!-- end #iit-gf-links -->';

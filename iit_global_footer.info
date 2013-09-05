@@ -4,7 +4,7 @@ description = Provides an IIT Global Footer block, universal to all sites
 core = 7.x
 package = Illinois Institute of Technology
 
-version = 7.x-1.0
+version = 7.x-1.1
 
 files[] = iit_global_footer.module
 
