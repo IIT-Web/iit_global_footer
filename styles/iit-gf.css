@@ -56,8 +56,12 @@
 }
 
 #iit-gf-links a.emergency-info-link {
-    color: #e80000;
+    color: #ff0000;
     font-weight: bold;
+}
+
+#iit-gf-wrapper .tel a {
+    color: #ff0000;
 }
 /* end IIT Global Footer - Global Styles ==================================== */
 
