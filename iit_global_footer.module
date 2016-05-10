@@ -87,8 +87,8 @@ function iit_global_footer_build_contents() {
   $html_output .= '<div id="iit-gf-contact" class="vcard">';
   $html_output .= '<div class="fn org">Illinois Institute of Technology</div>';
   $html_output .= '<div class="adr">';
-  $html_output .= '<div class="street-address">3300 South Federal Street</div>';
-  $html_output .= '<span class="locality">Chicago</span>, <abbr class="region" title="Illinois">IL</abbr> <span class="postal-code">60616-3793</span>';
+  $html_output .= '<div class="street-address">10 West 35th Street</div>';
+  $html_output .= '<span class="locality">Chicago</span>, <abbr class="region" title="Illinois">IL</abbr> <span class="postal-code">60616</span>';
   $html_output .= '</div><div class="tel">312.567.3000</div>';
   $html_output .= '</div><!-- end #iit-gf-contact --></div><!-- end #iit-gf-branding-wrapper -->';
 
