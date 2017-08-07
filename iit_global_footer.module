@@ -94,8 +94,9 @@ function iit_global_footer_build_contents() {
 
   $html_output .= '<div id="iit-gf-links"><ul>';
   $html_output .= '<li><a title="Illinois Tech Social Media Directory" href="http://web.iit.edu/directory/social-media">Illinois Tech Social Media Directory</a></li>';
-  $html_output .= '<li><a title="Contact Us" href="//web.iit.edu/contact-us">Contact Us</a></li>';
   $html_output .= '<li><a class="emergency-info-link" title="Emergency Information" href="//web.iit.edu/emergency">Emergency Information</a></li>';
+  $html_output .= '<li><a title="Contact Us" href="//web.iit.edu/contact-us">Contact Us</a></li>';
+  $html_output .= '<li><a title="Copyright Concerns" href="//web.iit.edu/dmca-notice">Copyright Concerns</a></li>';
   $html_output .= '<li><a title="Privacy" href="//web.iit.edu/privacy">Privacy</a></li>';
   $html_output .= '</ul></div><!-- end #iit-gf-links -->';
 
